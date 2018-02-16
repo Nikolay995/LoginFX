@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.Cursor?>
+<?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
@@ -53,5 +54,104 @@
             <Image url="images/button.png" />
          </image>
       </ImageView>
+      <Label layoutX="148.0" layoutY="392.0" text="Sign in" textFill="WHITE">
+         <font>
+            <Font name="Arciform Sans cyr-lat Regular" size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label layoutX="627.0" layoutY="428.0" text="Made by Nikolay995" textAlignment="CENTER" textFill="WHITE" />
+      <Label layoutX="384.0" layoutY="70.0" text="Full name" textFill="WHITE">
+         <font>
+            <Font name="Arciform Sans cyr-lat Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="385.0" layoutY="111.0" text="Password" textFill="WHITE">
+         <font>
+            <Font name="Arciform Sans cyr-lat Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="422.0" layoutY="153.0" text="Email" textFill="WHITE">
+         <font>
+            <Font name="Arciform Sans cyr-lat Regular" size="22.0" />
+         </font>
+      </Label>
+      <TextField layoutX="482.0" layoutY="68.0" opacity="0.9" prefHeight="31.0" prefWidth="238.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="482.0" layoutY="109.0" opacity="0.9" prefHeight="31.0" prefWidth="238.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="482.0" layoutY="151.0" opacity="0.9" prefHeight="31.0" prefWidth="238.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <CheckBox layoutX="422.0" layoutY="267.0" mnemonicParsing="false" text="I agree all statements in" textFill="WHITE">
+         <font>
+            <Font name="Arciform Sans cyr-lat Regular" size="14.0" />
+         </font>
+      </CheckBox>
+      <Label layoutX="594.0" layoutY="267.0" text="terms of service" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Arciform Sans cyr-lat Regular" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label layoutX="444.0" layoutY="341.0" text="You can also sign up with:" textFill="WHITE">
+         <font>
+            <Font name="Arciform Sans cyr-lat Regular" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="463.0" layoutY="381.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="images/facebook.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="536.0" layoutY="381.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="images/google-plus.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="609.0" layoutY="381.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="images/twitter.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Label layoutX="488.0" layoutY="20.0" text="Register here:" textFill="WHITE">
+         <font>
+            <Font name="Arciform Sans cyr-lat Regular" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="50.0" fitWidth="225.0" layoutX="444.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="images/button_signup.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="515.0" layoutY="214.0" text="Sign up" textFill="#7c7c7c">
+         <font>
+            <Font name="Arciform Sans cyr-lat Regular" size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
    </children>
 </Pane>
