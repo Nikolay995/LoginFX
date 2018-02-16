@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="450.0" fitWidth="750.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="images/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="719.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="images/close.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="450.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="images/user2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="77.0" layoutY="300.0" text="Login">
+         <font>
+            <Font name="Arciform Sans cyr-lat Regular" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="344.0" text="Password">
+         <font>
+            <Font name="Arciform Sans cyr-lat Regular" size="25.0" />
+         </font>
+      </Label>
+      <TextField layoutX="143.0" layoutY="300.0" opacity="0.9">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="143.0" layoutY="344.0" opacity="0.9">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="50.0" fitWidth="225.0" layoutX="77.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="images/button.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
