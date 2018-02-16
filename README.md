@@ -1,5 +1,9 @@
 # LoginFX
-Simple Desktop App created with JavaFX using SceneBuilder
+Simple Desktop App created with JavaFX using SceneBuilder </br>
+[RU]
+Мои первые попытки работать с JavaFX и SceneBuilder'ом :)
+Эта форма предназначена для регистрации или входа в определённое приложение.
+Она не несёт в себе никакого функционала и сделана лишь в ознакомительных целях.
 
 <img src="https://github.com/Nikolay995/LoginFX/blob/master/screen1.PNG?raw=true">
 </img>
